@@ -1,5 +1,5 @@
 LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-def encrypt(text, key, mode):
+def encr_decr(text, key, mode):
     result = ""
     # transverse the plain text
     for i in range(len(text)):
@@ -29,4 +29,4 @@ key = 4
 
 print("Plain Text : " + text)
 print("Shift pattern : " + str(key))
-print("Cipher: " + encrypt(text, key, "D"))
+print("Cipher: " + encr_decr(text, key, "D"))
