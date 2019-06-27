@@ -1,4 +1,4 @@
-def encr_decr(message,key,mode):
+def encr_decr(message, key, mode):
     if mode is 'E':
         pass
     elif mode is 'D':
@@ -7,10 +7,11 @@ def encr_decr(message,key,mode):
         return 'Invalid Mode'
     cipher_matrix = ['']*key
     for i in range(len(message)):
-        cipher_matrix[i%key] += message[i]
+        cipher_matrix[i % key] += message[i]
     return "".join(cipher_matrix)
 
-message = "SSTUSOCFRCASEC"
+
+message = "SSCUSTC OCFREAS"
 key = 5
 mode = 'D'
-print(encr_decr(message,key,mode))
+print(encr_decr(message, key, mode))

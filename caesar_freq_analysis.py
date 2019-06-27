@@ -1,5 +1,5 @@
 from caesar_freq_analysis_functions import getChiSquareScore
-message = """WYGGIWWJEGXSVW""".upper() #encrypted message
+message = """FTUE UE M FQEF EQZFQZOQ""".upper() #encrypted message
 
 LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 message = message.upper()

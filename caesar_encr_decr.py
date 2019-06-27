@@ -24,9 +24,9 @@ def encr_decr(text, key, mode):
     return result
 
 # check the above function
-text = "WYGGIWWJEGXSVW".upper()
-key = 4
+text = '''this is a test sentence'''.upper()
+key = 12
 
 print("Plain Text : " + text)
 print("Shift pattern : " + str(key))
-print("Cipher: " + encr_decr(text, key, "D"))
+print("Cipher: " + encr_decr(text, key, "E"))
