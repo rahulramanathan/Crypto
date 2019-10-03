@@ -30,7 +30,7 @@ def encrypt(text, key, mode):
 
 # check the above function
 text = "WHWJCWFZHAXBLZ".upper()
-key = "RAHUL"
+key = "RISHAB"
 mode = 'E'
 print("Plain Text : " + text)
 print("Key : " + str(key))
