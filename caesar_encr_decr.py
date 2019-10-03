@@ -24,7 +24,7 @@ def encr_decr(text, key, mode):
     return result
 
 # check the above function
-text = '''this is a test sentence'''.upper()
+text = '''test sentence'''.upper()
 key = 12
 
 print("Plain Text : " + text)
