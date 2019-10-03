@@ -14,4 +14,4 @@ for key in range(len(LETTERS)):
          translated = translated + LETTERS[num]
       else:
          translated = translated + symbol
-   print('Brute Forcing #%s: %s' % (key, translated))
+   print('Result of Brute Forcing #%s: %s' % (key, translated))
